@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+  
+:root {
+        --primary-color: #2e50b4;
+
+}
+
+* { 
+  box-sizing: border-box;
+    margin: 0;
+     padding: 0;
+}
+
+body{font-family: 'Open Sans', sans-serif;
+line-height: 1.5;
+
+}
+
+
+a
+
+{
+    text-decoration: none;
+color: white;
+}
+
+h1{
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 1.2;
+  margin-bottom: 5px;
+ font-family: 'https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap';
+ 
+}
+
+
+.showcase {
+
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    color: white;
+
+}
+
+
+
+.video-container {
+
+   position: fixed;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+   
+ }
+
+
+ .video-container{
+min-width: 100%;
+min-height: 100%;
+object-fit: contain;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 25px;
+}
+
+
+
+.content{
+ z-index: 10;
+}
+.content h3{
+ font-size: 15px;
+ opacity: .8;
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: rgb(0, 0, 0);
+    color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+    margin-top: 25px;
+    opacity: 0.6;
+}
+.btn:hover{
+    transform: scale(.98);
+}
+
+#about {
+ padding: 40px;
+ text-align: center;
+
+}
+#about p {
+ font-size: 1.2rem;
+ max-width: 600px;
+ margin: auto;
+}
+
+
+#about h2 {
+ margin: 30px 0;
+
+}
+
+#about2 {
+ margin: 10px 50px;
+ text-align: center;
+ position: relative;
+}
+
+#aboutdiv {
+ background-color: rgb(49, 49, 49);
+ border-radius: 14px;
+ padding: 2px 10px;
+ font-family:  Georgia;
+ color: white;
+ letter-spacing: 3px;
+ font-size: 25px;
+
+}
